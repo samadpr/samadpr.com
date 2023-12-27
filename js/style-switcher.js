@@ -1,15 +1,16 @@
 // ============================ toggler style switcher ===============================
-const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
-styleSwitcherToggle.addEventListener("click", () => {
-    document.querySelector(".style-switcher").classList.toggle("open");
-})
-// hide style - switcher on scroll
-window.addEventListener("scroll",() => {
-    if(document.querySelector(".style-switcher").classList.contains("open"))
-    {
-        document.querySelector(".style-switcher").classList.remove("open");
-    }
-})
+document.addEventListener("DOMContentLoaded", () => {
+    const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
+    styleSwitcherToggle.addEventListener("click", () => {
+        document.querySelector(".style-switcher").classList.toggle("open");
+    });
+
+    window.addEventListener("scroll", () => {
+        if (document.querySelector(".style-switcher").classList.contains("open")) {
+            document.querySelector(".style-switcher").classList.remove("open");
+        }
+    });
+});
 
 // ============================ theme colors ===============================
 const alternateStyles = document.querySelectorAll(".alternate-style");
@@ -26,4 +27,4 @@ function setActiveStyle(color)
         }
     })
 }
-// ============================ theme colors ===============================
+// ============================ theme light and dart mode ===============================
