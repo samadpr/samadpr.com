@@ -1,7 +1,7 @@
 /* ======================== typing animation =======================*/ 
 
 var typed = new Typed(".typing", {
-    strings:["","Web Designer", "Web Developer", "ASP .NET Core", "Graphics Designer"],
+    strings:["","Web Designer", "Web Developer", "ASP .NET Core Developer", "Graphics Designer"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
