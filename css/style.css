@@ -565,9 +565,21 @@ h3.my-profession
 {
     font-weight: 700;
     font-size: 18px;
+    /* margin-bottom: 15px; */
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
+.about .about-content .timeline .timeline-title_b
+{
+    font-weight: 700;
+    font-size: 16px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
+}
+.span_c
+{
+    color: gray;
 }
 .about .about-content .timeline .timeline-text
 {
