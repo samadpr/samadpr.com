@@ -773,6 +773,7 @@ h3.my-profession
 }
 .contact .contact-form .btn
 {
+    cursor: pointer;
     height: 50px;
     padding: 0 50px;
 }
